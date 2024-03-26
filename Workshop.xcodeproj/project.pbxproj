@@ -11,6 +11,7 @@
 		60F68C572BB241B5001AFBF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F68C562BB241B5001AFBF2 /* ContentView.swift */; };
 		60F68C592BB241B6001AFBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F68C582BB241B6001AFBF2 /* Assets.xcassets */; };
 		60F68C5D2BB241B6001AFBF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F68C5C2BB241B6001AFBF2 /* Preview Assets.xcassets */; };
+		60F68C652BB241C3001AFBF2 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F68C642BB241C3001AFBF2 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		60F68C582BB241B6001AFBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60F68C5A2BB241B6001AFBF2 /* Workshop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Workshop.entitlements; sourceTree = "<group>"; };
 		60F68C5C2BB241B6001AFBF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60F68C642BB241C3001AFBF2 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		60F68C532BB241B5001AFBF2 /* Workshop */ = {
 			isa = PBXGroup;
 			children = (
+				60F68C632BB241BD001AFBF2 /* Core */,
 				60F68C542BB241B5001AFBF2 /* WorkshopApp.swift */,
 				60F68C562BB241B5001AFBF2 /* ContentView.swift */,
 				60F68C582BB241B6001AFBF2 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				60F68C5C2BB241B6001AFBF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60F68C632BB241BD001AFBF2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60F68C642BB241C3001AFBF2 /* Timer.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F68C652BB241C3001AFBF2 /* Timer.swift in Sources */,
 				60F68C572BB241B5001AFBF2 /* ContentView.swift in Sources */,
 				60F68C552BB241B5001AFBF2 /* WorkshopApp.swift in Sources */,
 			);
