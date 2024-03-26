@@ -1,0 +1,1 @@
+This component is designed to allow users to select a time through two pickers: one for the hour and one for the minute. This component can be particularly useful in applications where time input from the user is required, such as setting alarms, reminders, or scheduling events.
